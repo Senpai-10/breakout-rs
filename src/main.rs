@@ -42,7 +42,7 @@ pub fn main() {
             match event {
                 Event::Quit { .. }
                 | Event::KeyDown {
-                    keycode: Some(Keycode::Escape),
+                    keycode: Some(Keycode::Q),
                     ..
                 } => break 'running,
                 _ => {}
